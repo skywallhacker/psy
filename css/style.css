@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.first_section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.first_section .container .header header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.first_section .container .header header .header_item_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.first_section .container .header header .header_item_logo .header_elem {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: #ACD457;
+}
+.first_section .container .header header .header_item_logo .header_elem img {
+  width: 50px;
+  border-radius: 50%;
+}
+.first_section .container .header header .header_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.first_section .container .header header .header_item .header_elem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.first_section .container .header header .header_item .header_elem a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.first_section .container .header header .header_item a:hover {
+  color: #ACD457;
+}
+.first_section .container .promo_sect .promo_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.first_section .container .promo_sect .promo_content .promo_content_item {
+  width: 50%;
+}
+.first_section .container .promo_sect .promo_content .promo_content_item:nth-child(2) {
+  width: 30%;
+}
+.first_section .container .promo_sect .promo_content .promo_content_item:nth-child(2) span {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 35px;
+}
+.first_section .container .promo_sect .promo_content .promo_content_item:nth-child(2) .bolt {
+  font-size: 40px;
+  color: #ACD457;
+  font-family: "Caveat", cursive;
+}
+.first_section .container .card_sect .card_content .card_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.first_section .container .card_sect .card_content .card_text h1 {
+  font-size: 30px;
+  color: #ACD457;
+  font-family: "Caveat", cursive;
+  margin-bottom: 10px;
+}
+.first_section .container .card_sect .card_content .card_text span {
+  width: 40%;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+.first_section .container .card_sect .card_content .card_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+.first_section .container .card_sect .card_content .card_box .card_box_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.first_section .container .card_sect .card_content .card_box .card_box_item img {
+  max-width: 180px;
+  min-height: 180px;
+  border-radius: 50%;
+}
+.first_section .container .card_sect .card_content .card_box .card_box_item span {
+  font-size: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.first_section .container .icons_sect .icons_content {
+  margin-top: 50px;
+}
+.first_section .container .icons_sect .icons_content h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 38px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+}
+.first_section .container .icons_sect .icons_content .icons_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.first_section .container .icons_sect .icons_content .icons_box .icons_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.first_section .container .icons_sect .icons_content .icons_box .icons_item img {
+  width: 54px;
+  height: 54px;
+  background: #ACD457;
+  border-radius: 50%;
+}
+.first_section .container .icons_sect .icons_content .icons_box .icons_item p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #6F6F6F;
+}
+.first_section .container .price_sect .price_content h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 38px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+}
+.first_section .container .price_sect .price_content .price_box {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  justify-content: space-evenly;
+}
+.first_section .container .price_sect .price_content .price_box .price_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 43px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.first_section .container .price_sect .price_content .price_box .price_item .price {
+  font-style: italic;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.first_section .container .price_sect .price_content .price_box .price_item span {
+  font-style: italic;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+}
+.first_section .container .price_sect .price_content .price_box .price_item p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+.first_section .container .price_sect .price_content .price_box .price_item button {
+  width: 100%;
+  height: 15%;
+  background: #ACD457;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.first_section .container .qualification .qualification_content {
+  margin-bottom: 50px;
+}
+.first_section .container .qualification .qualification_content h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+  text-align: center;
+  font-size: 38px;
+}
+.first_section .container .qualification .qualification_content .qualification_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first_section .container .qualification .qualification_content .qualification_box .qualification_item ul li {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #6F6F6F;
+}
+.first_section .container .qualification .qualification_content .qualification_box .qualification_item ul ::marker {
+  color: #ACD457;
+}
+.first_section .container .qualification .qualification_content .qualification_box .qualification_item img {
+  width: 370px;
+  height: 265px;
+}
+
+.basement_sect {
+  background-image: url(../img/marcus-ganahl-tLnITtoJ7vA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.basement_sect .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.basement_sect .container .basement_content .basement_box {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.basement_sect .container .basement_content .basement_box .basement_item h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+  margin-bottom: 30px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .log-form h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+  margin-bottom: 30px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .log-form .telegram-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .log-form .telegram-form span {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Caveat", cursive;
+  color: #ACD457;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .log-form .telegram-form input {
+  width: 60%;
+  height: 45px;
+  outline: none;
+  border: 3px solid #ACD457;
+  text-align: start;
+  padding-left: 8px;
+  background: white;
+  border-radius: 15px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .log-form .telegram-form button {
+  width: 40%;
+  height: 35px;
+  border-radius: 25px;
+  border: 0;
+  background: #ACD457;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .social_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .social_box .social_item img {
+  width: 50px;
+  height: 50px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .info_box .info_item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .info_box .info_item img {
+  width: 25px;
+  height: 25px;
+}
+.basement_sect .container .basement_content .basement_box .basement_item .info_box .info_item a {
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
