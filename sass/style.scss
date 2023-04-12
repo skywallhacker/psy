@@ -26,7 +26,8 @@ img {
     .container {
         max-width: 1200px;
         margin: 0 auto;
-
+        padding-left: 30px;
+        padding-right: 30px;
         .header {
             header {
                 display: flex;
@@ -49,7 +50,7 @@ img {
                         justify-content: center;
                         flex-direction: column;
                         color: #ACD457;
-
+                        height: 50px;
                         img {
                             width: 50px;
                             border-radius: 50%;
@@ -68,6 +69,19 @@ img {
                         align-items: center;
                         justify-content: center;
                         flex-direction: column;
+                        
+                        img {
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50%;
+                        }
+
+                        button {
+                            height: 50px;
+                            width: 200px;
+                            background: #ACD457;
+                            border: 0;
+                        }
 
                         a {
                             font-family: 'Oswald', sans-serif;
@@ -153,8 +167,8 @@ img {
                         gap: 20px;
 
                         img {
-                            max-width: 180px;
-                            min-height: 180px;
+                            width: 80%;
+                            height: 80%;
                             border-radius: 50%;
                         }
 
@@ -164,6 +178,7 @@ img {
                             font-family: "Roboto", sans-serif;
                             font-weight: 400;
                             text-align: center;
+                            width: 68%;
                         }
                     }
                 }
@@ -227,7 +242,7 @@ img {
                     display: grid;
                     grid-template-columns: repeat(3, 260px);
                     justify-content: space-evenly;
-
+                    gap: 12px;
                     .price_item {
                         display: flex;
                         flex-direction: column;
@@ -332,6 +347,7 @@ img {
                 justify-content: space-between;
 
                 .basement_item {
+                    width: 100%;
                     h1 {
                         font-weight: 700;
                         font-size: 42px;
@@ -349,6 +365,7 @@ img {
                             font-family: "Caveat", cursive;
                             color: #ACD457;
                             margin-bottom: 30px;
+                            text-align: center;
                         }
 
                         .telegram-form {

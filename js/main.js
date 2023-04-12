@@ -14,7 +14,6 @@ $('.telegram-form').on('submit', function (event) {
 
     data.append( 'name', 		$('[name="name"]', form).val() );
     data.append( 'phone', 		$('[name="phone"]', form).val() );
-    data.append( 'email', 		$('[name="email"]', form).val() );
 
     files.each(function (key, file) {
         let cont = file.files;
@@ -51,6 +50,7 @@ $('.telegram-form').on('submit', function (event) {
         },
         error: function( jqXHR, textStatus ) {
             // Тут выводим ошибку
+            
         },
         complete: function() {
             // Тут можем что-то делать ПОСЛЕ успешной отправки формы
